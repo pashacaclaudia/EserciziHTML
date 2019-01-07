@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body {margin:0;}
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		    background-color: #333;
+		    position: fixed;
+		    top: 0;
+		    width: 100%;
+		}
+		li {
+		  float: left;
+		}
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+		    padding: 14px 16px;
+			text-decoration: none;
+		}
+		li a:hover:not(.active) {
+		  	background-color: #111;
+		}
+        .active {
+  			background-color: #4CAF50;
+			text-align: center;
+        }
+	
+		.iframeC{
+            width: 30%;
+            height:100%;
+		}
+	</style>
+</head>
+
+<body>
+		<ul>
+  			<li class="active"><a href="">Home</a></li>
+  			<li><a href="Prova1.html" target="iframe1">Prova 1</a></li>
+			<li ><a href="Prova2.html" target="iframe1">Prova 2</a></li>
+			<li><a href="Prova3.html" target="iframe1">Prova 3</a>
+	    </li>
+	    
+		<div style="padding:20px;margin-top:46px;background-color:#1abc9c;height:1500px;">
+			
+			<iframe src="Prova1.html" name="iframe1" class="iframeC"></iframe>
+		</div>
+</body>
+</html>
